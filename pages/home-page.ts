@@ -5,7 +5,7 @@ export class HomePage {
     textHeader: Locator
 
 constructor(page:Page){
-    this.textHeader = page.locator('h1[class="hero-title "] span');
+    this.textHeader = page.locator('spark-stack[class="search-bar-horizontal-or"] strong');
 }
 
 async validateHeader(expectedHeader: string): Promise<void> {
