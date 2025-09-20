@@ -7,5 +7,5 @@ test('Header verification', async ({ page }) => {
 
     await page.goto('https://www.cars.com/');
    
-    await homePage.validateHeader("Imagine the possibilities")
+    await homePage.validateHeader("- Or search by -")
 })
